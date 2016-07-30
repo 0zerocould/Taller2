@@ -15,10 +15,10 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprdiamante</sprite>
-    <sprite>sprites\sprpuerta</sprite>
+    <sprite>sprites\sprMuro</sprite>
     <sprite>sprites\sprmeta</sprite>
     <sprite>sprites\sprenemigovertical</sprite>
-    <sprite>sprites\sprMuro</sprite>
+    <sprite>sprites\sprMuro0</sprite>
     <sprite>sprites\sprenemigohorizontal</sprite>
     <sprite>sprites\sprenemigoaribayabajo</sprite>
     <sprite>sprites\sprjugador</sprite>
@@ -38,11 +38,17 @@
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\background1</background>
+    <background>background\background2</background>
+    <background>background\background4</background>
+    <background>background\ganaste_</background>
+    <background>background\background9</background>
+    <background>background\background11</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\objDiamante</object>
-    <object>objects\objpuerta</object>
+    <object>objects\objbloque</object>
     <object>objects\objmeta</object>
     <object>objects\objenemigohorizontal</object>
     <object>objects\objEnemigovertical</object>
@@ -66,10 +72,13 @@
     <object>objects\objinicio</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\perdiste_</room>
+    <room>rooms\Ganaste</room>
     <room>rooms\inicio</room>
-    <room>rooms\Nivel_3</room>
-    <room>rooms\Nivel_2</room>
     <room>rooms\Nivel_1</room>
+    <room>rooms\Nivel_2</room>
+    <room>rooms\Nivel_3</room>
+    <room>rooms\Nivel4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

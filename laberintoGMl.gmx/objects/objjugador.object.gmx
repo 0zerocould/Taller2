@@ -31,6 +31,7 @@ llavemorada = false ;
 llaveamarilla = false ;
 llaveblanca = false ;
 llaveroja = false ; 
+Diamante = false ; 
 </string>
           </argument>
         </arguments>
@@ -72,6 +73,8 @@ if (!place_meeting(x,y+velocidad,objMuro))&amp;&amp; (!place_meeting(x-velocidad
 {
 if (keyboard_check(vk_down)){y =y + velocidad;}
 }
+
+
 </string>
           </argument>
         </arguments>
@@ -125,6 +128,8 @@ with (objllavemorada){instance_destroy();}
 llavemorada = true 
 audio_play_sound(sndDiamante, 10, false); 
 }
+
+
 </string>
           </argument>
         </arguments>
@@ -197,6 +202,51 @@ audio_play_sound(sndpuerta, 10 ,false );
 }
 
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+if (place_meeting(x,y, objDiamante))
+
+{
+with (objDiamante){instance_destroy();}
+llaveroja = true 
+audio_play_sound(sndDiamante, 10, false); 
+}
+
+
+if (objDiamante)
+
+{
+if(place_meeting(x+velocidad, y , objDiamante))||
+(place_meeting(x-velocidad, y , objDiamante))||
+(place_meeting(x,y - velocidad, objDiamante))||
+(place_meeting(x, y + velocidad, objDiamante))
+{
+with(objDiamante){instance_destroy();}
+audio_play_sound(sndpuerta, 10 ,false ); 
+}
+
+}
+
+
 </string>
           </argument>
         </arguments>
