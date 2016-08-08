@@ -230,6 +230,7 @@
     <instance objName="objllavemorada" x="224" y="256" name="inst_8ADE2850" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objllavesblanca" x="576" y="32" name="inst_98E4D532" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objpuertamorada" x="576" y="64" name="inst_1A4A14F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bola" x="32" y="0" name="inst_2E329FD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

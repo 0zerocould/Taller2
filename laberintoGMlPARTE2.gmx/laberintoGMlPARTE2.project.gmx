@@ -35,8 +35,8 @@
       <sprite>sprites\sprpuertaroja</sprite>
       <sprite>sprites\sprpuertablanca</sprite>
     </sprites>
-    <sprite>sprites\sprite16</sprite>
     <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\spr_bola</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -74,6 +74,8 @@
     </objects>
     <object>objects\obj__sonido</object>
     <object>objects\obj_inicio</object>
+    <object>objects\obj_vida</object>
+    <object>objects\obj_bola</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\inicio</room>

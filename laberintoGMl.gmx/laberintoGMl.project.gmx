@@ -72,10 +72,10 @@
     <object>objects\objinicio</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\perdiste_</room>
-    <room>rooms\Ganaste</room>
     <room>rooms\inicio</room>
     <room>rooms\Nivel_1</room>
+    <room>rooms\perdiste_</room>
+    <room>rooms\Ganaste</room>
     <room>rooms\Nivel_2</room>
     <room>rooms\Nivel_3</room>
     <room>rooms\Nivel4</room>
